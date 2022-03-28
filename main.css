@@ -1,0 +1,498 @@
+*{
+    padding: 0px;
+    margin:0px;
+    
+}
+
+
+
+body{
+    background-image: linear-gradient(#3d0a49 , #5015bd ,#027fe9,#00caf8 );
+}
+
+p{
+    font:bold 13px caviar dreams;
+}
+
+.logo{
+    width: 150px;
+}
+#cab{
+    position: relative;
+    padding: 10px;
+
+}
+
+#cab>.nick{
+    font:bold 20px Heavitas;
+    position: relative;
+    color: white;
+    left:0px;
+    text-shadow: 0px 5px 8px black;
+    padding:5px;
+}
+#cab>.nick, .logo{
+    margin:0px;
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    margin: 15px;
+    color: white;
+    position: relative;
+    right: 4px;
+    transition: transform 1s;
+;
+}
+li:hover{
+ transform: scale(1.5,1.5);
+}
+
+
+ /*---------------------------cabeçalho-------------------------------*/
+
+ #sobre{
+     display: block;
+     text-align: center;
+     height: 350px;
+     margin:15px;
+    background-color: #e0daf7;
+     padding:10px;
+     border-radius: 10px;
+     box-shadow: 4px 5px 15px black;
+ }
+
+
+ #sobre>h1, h2, p{
+     padding: 10px;
+     color:black;
+ }
+#exp{
+    width: 500px;
+    position: relative;
+    text-align: justify;
+}
+
+
+#exp>h1{
+    padding:10px;
+    font:bold 25px NT Wagner;
+    text-align: center;
+}
+
+#exp2{
+    width: 500px;
+    position: relative;
+    left: 60%;
+    bottom:40%;
+}
+
+#exp2>h2{
+    font:bold 25px NT Wagner;
+    text-align: center;
+}
+
+
+
+#exp3{
+    position:relative;
+    width: 500px;
+    bottom:80%;
+}
+
+#exp3>h2{
+    padding:0px;
+    font:bold 25px NT Wagner;
+    text-align: center;
+}
+
+/*---------------------banner------------------*/
+
+#banner{
+    text-align: center;
+}
+
+#banner>h1{
+    text-align: center;
+    color: white;
+    position: relative;
+    padding: 5px;
+    font:bold 35px Heavitas;
+    text-shadow: 0px 0px 8px black;
+}
+
+picture>img{
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    max-width:300px;
+    transition: transform 1s;
+    box-shadow: 0px 2px 5px black;
+}
+
+picture>img:hover{
+    transform:scale(1.1,1.1);
+}
+#media{
+    width: 600px;
+    position: relative;
+    left: 30%;
+    margin:30px;
+}
+
+#media>h1{
+    text-align: center;
+    position: relative;
+    right: 9%;
+    font:bold 25px heavitas;
+    color:white;
+    text-shadow: 0px 4px 6px black;
+    padding: 15px;
+    padding-bottom: 30px;
+}
+
+#media>video{
+    border-radius: 10px ;
+}
+
+
+
+/*-----------------------footer----------------------------*/
+
+footer{
+    background-color: #9be7f8;
+    text-align: center;
+    font:bold 15px NT Wagner;
+    margin-top:10px;
+}
+
+@media (max-width:1050px){
+    #cab{
+        position: relative;
+    }
+    
+    #exp2{
+        position: relative;
+        width: 400px;
+    }
+    picture>img{
+        width: 200px;
+    }
+    #media{
+        position: relative;
+        left: 24%;
+    }
+
+}
+
+@media (max-width:950px){
+    #media{
+        position: relative;
+        left: 20%;
+    }
+   
+    #exp2{
+        position: relative;
+        width: 300px;
+    }
+    picture>img{
+        width: 100px;
+    }
+}
+
+@media (max-width:900px){
+    #exp2{
+        position: relative;
+        width: 300px;
+        left:65%;
+    }
+    picture>img{
+        width: 100px;
+    }
+    #media{
+        position: relative;
+        left:17%;
+    }
+
+}
+@media (max-width:850px){
+    #exp2{
+        position: relative;
+        width: 200px;
+        left:70%;
+        bottom:47%;
+    }
+
+    #exp3{
+        position: relative;
+        bottom:95%;
+    }
+    picture>img{
+        width: 100px;
+    }
+    #media{
+        position: relative;
+        left:15%;
+    }
+}
+
+@media (max-width:750px){
+    #exp2{
+        position: relative;
+        width: 200px;
+        left:73%;
+        bottom:47%;
+    }
+
+    #exp3{
+        position: relative;
+        bottom:95%;
+    }
+    picture>img{
+        width: 100px;
+    }
+    #media{
+        position: relative;
+        left:13%;
+    }
+}
+
+@media (max-width:700px){
+    #sobre{
+        position: relative;
+        left:18%;
+        height: 750px;
+        width: 300px;
+    }
+
+    #exp{
+        width: 100%;
+    }
+    
+    #exp2{
+        position: relative;
+        width: 100%;
+        left:0%;
+        top:30%;
+    }
+
+    #exp3{
+        position: relative;
+        bottom:40%;
+        width: 100%;
+        text-align:justify;
+    }
+    picture>img{
+        width: 100px;
+    }
+}
+
+@media (max-width:650px){
+    #sobre{
+        position: relative;
+        left: 22%;
+    }
+}
+
+@media (max-width:550px){
+    #sobre{
+        position: relative;
+        left:17%;
+        height: 750px;
+        width: 300px;
+    }
+
+    #exp{
+        width: 100%;
+    }
+    
+    #exp2{
+        position: relative;
+        width: 100%;
+        left:0%;
+        top:30%;
+    }
+
+    #exp3{
+        position: relative;
+        bottom:40%;
+        width: 100%;
+        text-align:justify;
+    }
+    picture>img{
+        width: 100px;
+    }
+
+    video{
+        width: 380px;
+    }
+    #media{
+        position: relative;
+        left:10%;
+    }
+}
+
+@media (max-width:500px){
+    #sobre{
+        position: relative;
+        left:14%;
+        height: 750px;
+        width: 300px;
+    }
+
+    #exp{
+        width: 100%;
+    }
+    
+    #exp2{
+        position: relative;
+        width: 100%;
+        left:0%;
+        top:30%;
+    }
+
+    #exp3{
+        position: relative;
+        bottom:40%;
+        width: 100%;
+        text-align:justify;
+    }
+    picture>img{
+        width: 100px;
+    }
+
+    #banner>h1{
+        position: relative;
+        left: 8px;
+    }
+    #media{
+        position: relative;
+        left:5%;
+    }
+}
+
+@media (max-width:470px){
+    #sobre{
+        position: relative;
+        left:11%;
+        height: 750px;
+        width: 300px;
+    }
+
+    #exp{
+        width: 100%;
+    }
+    
+    #exp2{
+        position: relative;
+        width: 100%;
+        left:0%;
+        top:30%;
+    }
+
+    #exp3{
+        position: relative;
+        bottom:40%;
+        width: 100%;
+        text-align:justify;
+    }
+    picture>img{
+        width: 50px;
+    }
+}
+
+
+@media (max-width:450px){
+    #sobre{
+        position: relative;
+        left:11%;
+        height: 750px;
+        width: 300px;
+    }
+
+    #exp{
+        width: 50%;
+    }
+    
+    #exp2{
+        position: relative;
+        width: 100%;
+        left:0%;
+        top:30%;
+    }
+
+    #exp3{
+        position: relative;
+        bottom:40%;
+        width: 100%;
+        text-align:justify;
+    }
+    picture>img{
+        width: 50px;
+    }
+}
+
+@media (max-width:400px){
+    #sobre{
+        position: relative;
+        left:7%;
+        height: 750px;
+        width: 300px;
+    }
+
+    #exp{
+        width: 100%;
+    }
+    
+    #exp2{
+        position: relative;
+        width: 100%;
+        left:0%;
+        top:30%;
+    }
+
+    #exp3{
+        position: relative;
+        bottom:40%;
+        width: 100%;
+        text-align:justify;
+    }
+    picture>img{
+        width: 50px;
+    }
+}
+
+@media (max-width:350px){
+    #sobre{
+        position: relative;
+        left:6%;
+        height: 850px;
+        width: 250px;
+    }
+
+    #exp{
+        width: 100%;
+    }
+    
+    #exp2{
+        position: relative;
+        width: 100%;
+        left:0%;
+        top:30%;
+    }
+
+    #exp3{
+        position: relative;
+        bottom:38%;
+        width: 100%;
+        text-align:justify;
+    }
+    picture>img{
+        width: 40px;
+    }
+}
